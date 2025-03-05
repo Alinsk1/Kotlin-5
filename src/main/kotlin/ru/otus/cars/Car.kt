@@ -19,6 +19,10 @@ interface Car : CarInput {
      */
     val carOutput: CarOutput
 
+    val tank: Tank
+    val tankMouth: TankMouth
+
+
     /**
      * Получить оборудование
      */
